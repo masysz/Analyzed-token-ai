@@ -1,0 +1,21 @@
+{
+  "name": "analyzed-token-ai",
+  "version": "1.0.0",
+  "description": "Analyze token data with OpenAI and Alchemy",
+  "main": "analyze.js",
+  "scripts": {
+    "start": "node analyze.js",
+    "dev": "nodemon analyze.js",
+    "build": "next build"  // Hanya jika menggunakan framework seperti Next.js
+  },
+  "dependencies": {
+    "alchemy-sdk": "^1.0.0",
+    "express": "^4.17.1",
+    "openai": "^3.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
